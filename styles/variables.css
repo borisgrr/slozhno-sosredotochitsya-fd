@@ -12,6 +12,7 @@
   --main-text-color: #f1b2ce;
   --subtitle-text-color: #000028;
   --line-height-base: calc(23.4px/var(--font-size-base));
+  --footer-text-color: #DB00FF;
 }
 
 @media (prefers-color-scheme: dark) {

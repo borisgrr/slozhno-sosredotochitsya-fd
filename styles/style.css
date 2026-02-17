@@ -111,7 +111,7 @@
 .header__title {
   font-size: clamp(7.25rem, 7.0115rem + 1.0178vw, 7.5rem);
   font-weight: var(--font-weight-bold);
-  color: #db00ff;
+  color: var(--footer-text-color);
   text-shadow: 4px 4px 0 var(--accent-color);
   line-height: 83%;
   font-family: var(--font-family-base);
@@ -186,3 +186,56 @@ a:focus {
   border: 1px solid var(--main-text-color);
 }
 
+.main__section-images {
+  display: grid;
+  max-inline-size: 100%;
+  gap: 10px;
+}
+
+.main__section-images img {
+  max-inline-size: 100%;
+  block-size: auto;
+  object-fit: cover;
+  display: block;
+}
+
+.footer {
+  margin-block-start: 40px;
+  display: grid;
+  color: var(--footer-text-color);
+  font-family: var(--font-family-base), sans-serif;
+  line-height: 82, 5%;
+  font-weight: var(--font-weight-bold);
+  font-size: 116px;
+  justify-content: center;
+  align-items: center;
+  text-shadow: 4px 4px 0 var(--accent-color);
+  min-block-size: 668px;
+  block-size: 100vh;
+  position: relative;
+}
+
+.footer::before {
+  position: absolute;
+  block-size: 25px;
+  inline-size: 25px;
+  display: block;
+  left: 10px;
+  bottom: 10px;
+  border-left: 1px solid var(--accent-color);
+  border-bottom: 1px solid var(--accent-color);
+  content: '';
+}
+
+.footer::after {
+  position: absolute;
+  block-size: 25px;
+  inline-size: 25px;
+  display: block;
+  right: 10px;
+  top: 10px;
+  border-top: 1px solid var(--accent-color);
+  border-right: 1px solid var(--accent-color);
+  content: '';
+  background-color: transparent;
+}
