@@ -12,9 +12,12 @@
   --main-text-color: #f1b2ce;
   --subtitle-text-color: #000028;
   --line-height-base: calc(23.4px/var(--font-size-base));
-  --footer-text-color: #db00ff;
+  --title-text-color: #db00ff;
   --padding-block-base: 10px;
   --padding-inline-base: 10px;
+  --main-section-title-color: var(--accent-color);
+  --link-state-color: var(--accent-color);
+  --hover-color: 255, 0, 112;
 }
 
 @media (width>768px) {
@@ -27,11 +30,5 @@
 @media (prefers-color-scheme: dark) {
   :root {
     --cover-image: url('../images/cover-image-dark.png');
-  }
-}
-
-@media (prefers-color-scheme: light) {
-  :root {
-    --cover-image: url('../images/cover-image-light.png');
   }
 }
