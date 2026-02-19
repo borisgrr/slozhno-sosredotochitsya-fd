@@ -2,12 +2,13 @@
   Переменные для вашего проекта
   и их переопределение под различные устройства
 */
+
 :root {
-  --cover-image: url('../images/cover-image.png');
+  --cover-image: url(../images/cover-image.png);
   --font-size-base: 18px;
   --font-weight-regular: 400;
   --font-weight-bold: 700;
-  --font-family-base: 'IBM Plex Mono';
+  --font-family-base: "IBM Plex Mono";
   --accent-color: #ff0070;
   --main-text-color: #f1b2ce;
   --subtitle-text-color: #000028;
@@ -18,9 +19,11 @@
   --main-section-title-color: var(--accent-color);
   --link-state-color: var(--accent-color);
   --hover-color: 255, 0, 112;
+  --decor-color: var(--accent-color);
 }
 
 @media (width>768px) {
+
   :root {
     --padding-block-base: 20px;
     --padding-inline-base: 20px;
@@ -28,7 +31,8 @@
 }
 
 @media (prefers-color-scheme: dark) {
+
   :root {
-    --cover-image: url('../images/cover-image-dark.png');
+    --cover-image: url(../images/cover-image-dark.png);
   }
 }
