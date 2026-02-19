@@ -8,6 +8,7 @@
   --link-state-color: var(--main-text-color);
   --hover-color: 50, 49, 45;
   --decor-color: var(--main-text-color);
+  --cover-color: #fff1f7;
 }
 
 :root.theme-light .rec {
