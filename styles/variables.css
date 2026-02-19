@@ -18,7 +18,7 @@
   --cover-color: #000028;
 }
 
-@media (width>768px) {
+@media (width>=768px) {
 
   :root {
     --padding-block-base: 20px;
