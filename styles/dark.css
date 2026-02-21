@@ -12,7 +12,6 @@
 }
 
 @media (prefers-color-scheme: dark) {
-
   :root {
     --cover-image: url(../images/cover-image-dark.png);
     --accent-color: #ff0070;

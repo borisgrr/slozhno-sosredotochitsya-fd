@@ -428,9 +428,6 @@ a:focus {
     margin-inline-start: 25%;
   }
 
-  .main__section_type_factors {
-  }
-
   .main__section-factors-list {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
