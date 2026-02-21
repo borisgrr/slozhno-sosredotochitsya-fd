@@ -1,0 +1,28 @@
+:root.theme-dark {
+  --cover-image: url(../images/cover-image-dark.png);
+  --accent-color: #ff0070;
+  --main-text-color: #f1b2ce;
+  --subtitle-text-color: #000028;
+  --title-text-color: #db00ff;
+  --main-section-title-color: var(--accent-color);
+  --link-state-color: var(--accent-color);
+  --hover-color: 255, 0, 112;
+  --decor-color: var(--accent-color);
+  --cover-color: #000028;
+}
+
+@media (prefers-color-scheme: dark) {
+
+  :root {
+    --cover-image: url(../images/cover-image-dark.png);
+    --accent-color: #ff0070;
+    --main-text-color: #f1b2ce;
+    --subtitle-text-color: #000028;
+    --title-text-color: #db00ff;
+    --main-section-title-color: var(--accent-color);
+    --link-state-color: var(--accent-color);
+    --hover-color: 255, 0, 112;
+    --decor-color: var(--accent-color);
+    --cover-color: #000028;
+  }
+}
