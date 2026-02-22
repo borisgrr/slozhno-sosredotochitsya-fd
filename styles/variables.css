@@ -16,6 +16,7 @@
   --hover-color: 255, 0, 112;
   --decor-color: var(--accent-color);
   --cover-color: #000028;
+  --rec-display: block;
 }
 
 @media (width>=768px) {

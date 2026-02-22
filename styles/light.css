@@ -9,6 +9,7 @@
   --hover-color: 50, 49, 45;
   --decor-color: var(--main-text-color);
   --cover-color: #fff1f7;
+  --rec-display: none;
 }
 
 :root.theme-light .rec {
@@ -28,9 +29,6 @@
     --hover-color: 50, 49, 45;
     --decor-color: var(--main-text-color);
     --cover-color: #fff1f7;
-  }
-
-  .rec {
-    display: none;
+    --rec-display: none;
   }
 }
